@@ -1,0 +1,336 @@
+<html>   // task 5 //   
+    <head>
+            <style>
+
+                h2{
+                    color: tomato;
+                    background-color: lavender;
+                    border:1px solid black;
+                    border:2px solid pink;
+                    padding: 2px;
+                    margin: 10px;
+                    border-radius: 50%;
+                    
+
+                    text-align: center;
+                    text-align: right;
+                    text-align: left;
+
+                    text-transform: uppercase;
+                    text-transform: lowercase;
+                    text-transform: capitalize;
+
+                    text-decoration: overline;
+                    text-decoration: underline;
+                    text-decoration: line-through;
+                    text-decoration: none;
+
+                    text-shadow: 0px 0px 0px black;
+
+                    font-size: 20px;
+
+                    border-radius: 50px;
+                    
+                    font-weight: 400;
+
+                    font-family: 'Courier New', Courier, monospace;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+                    font-style: italic;
+                    font-style:inherit;
+                }
+                a{text-decoration: none;
+                    text-decoration: underline;
+                    margin-left: 5%;
+                    color: black;
+                }               
+                table{
+                    border: 2px solid black;
+                    
+                    border-collapse: collapse;
+                    margin-left: 5%;
+                }
+                tr{
+                    border: 2px solid black !important;
+                }
+                td{
+                    border-right: 2px solid black;
+                }               
+                img{
+
+                    opacity:1;  
+                    margin-left: 5%;
+                    border-radius: 50%;         
+                }
+                h3{
+                    margin-left: 5%;
+                }
+                button{
+                    margin-left: 45%;
+                }
+            </style>
+
+            <title>My Resume</title>
+            <h2>Name: Satish Kumar</h2>
+            <h2>Photo</h2>
+
+            <img src="bird.jpg" height="30%" width="30%" >
+            
+    </head>
+
+    <body>
+
+              <h2>Education</h2>
+              <table>
+                    <thead>
+                        <tr> //table row//
+
+                            <th>Qualification</th>
+                            <th>Year</th>
+                            <th>Percentage</th>
+
+                      </tr>
+                </thead>
+
+                <tbody>
+                        <tr>
+    
+                            <td>SSC</td>
+                            <td>2008</td>
+                            <td>82.5%</td>
+                        </tr>
+                        <tr>
+    
+                            <td>Diploma</td>
+                            <td>2011</td>
+                            <td>71.8%</td>
+   
+                        </tr>
+                        <tr>
+    
+                            <td>B-tech</td>
+                            <td>2014</td>
+                            <td>64.4%</td>
+   
+                        </tr>
+
+                </tbody>
+
+                </table>
+                    <h2>My favorate songs</h2>
+
+                    <audio src="audio.wav" controls> </audio>
+
+                    <h2>My favorate video</h2>
+
+                    <video src="vedio.mp4" width="40%" height="40%" controls  > </video> 
+
+                    <h2>My Social media</h2>
+
+                    <a href="https://www.facebook.com/login/" target="-">facebook</a>
+                    <a >My whatsup number "9603076476"</a>
+
+                    <h2>My Hobbies</h2>
+ 
+                        <ul>
+                             <h3><li>watching movies</li></h3>
+                             <h3><li>preparing food</li></h3>
+                        </ul>
+
+                <h2>Contact me</h2>
+                <h3>Email:.........</h3>
+                <h3>Phone:..........</h3>
+         
+                <button>Submit</button>
+
+               </body>
+</html>
+
+
+<br>
+
+//form day2 //
+
+<html>
+    <head>  
+        
+
+
+
+        <style>
+
+            input{
+
+                border-radius: 20px;
+                padding: 20px;
+                margin: 20px;
+                background-color: powderblue;
+            }
+
+        </style>
+    </head>
+    <body>  
+        <form> 
+
+            <title>form</title>
+                <lable> Name </lable>
+                <input type="text"><br>
+                <label for="name"></label>
+                <input type="text" required minlength="2" maxlength="4">
+                <input id="name">
+
+                <lable>Age</lable>
+                <input type="number"><br>
+                <input type="number" min="10" max="50">
+
+                <lable>Date</lable>
+                <input type="date"><br>
+
+                <lable>gender:</lable>
+                <lable>male</lable>
+                <label for="male"></label>
+                <input id="male">
+                <input type = "radio"name="gender"> 
+                <lable>female</lable>
+                <label for="female"></label>
+                <input id="female">
+                <input type ="radio"name="gender"><br>
+
+                <lable>I Know:</lable>
+
+                <lable>html</lable>
+                      <input type="checkbox">
+                <lable>css</lable>
+                      <input type="c heckbox">
+                <lable>js</lable>
+                      <input type="checkbox"><br>
+                <lable>address proof</lable>
+                      <input type="file"><br>
+                <lable>volume</lable>
+                      <input type="range"><br>
+                <lable>color</lable>
+                      <input type="color"><br>
+
+               <lable>state</lable>
+
+        <select>
+
+               <option>ts</option>
+               <option>ap</option>
+               <option>mh</option>
+               <option>tn</option>
+
+        </select><br>
+
+               <lable>message</lable><br>
+               <textarea rows="5" columns="5"></textarea>
+               <input type="submit">
+        </form>
+    </body>
+
+</html>
+
+        
+
+
+
+
+
+
+
+/////////application form/////////
+<html>
+<table>
+
+  <tbody>
+
+    <tr>
+       <td><lable>Full name</lable></td>
+       <td><input type=text></td>
+   </tr>
+    <tr>
+       <td><lable>email</lable></td>
+       <td><input type=text></td>
+  </tr>
+   <tr>
+       <td><lable>gender</lable> </td>
+       <td><lable>male</lable>
+        
+       <input type=radio name="gender">
+       <lable>female<lable>
+        
+       <input type=radio name="gender"></td>
+  </tr>
+   <tr>
+       <td><lable>Nationality</lable></td>
+       <td>
+           <td><label for = Nationality></label></td>
+           <td><input id="Nationality"></td>
+         <select>
+             <option>India</option>
+             <option>US</option>
+             <option>UK</option>
+             <option>Canada</option>
+         </select>
+      </td>  
+
+  </tr>
+   <tr>
+       <td><lable>skils</lable></td>
+       <td><input type=checkbox>
+       <lable>Asp.net</lable>
+       <input type=checkbox>
+       <lable>jQuery</lable>
+       <input type=checkbox>
+       <lable>MVC</lable>
+       <input type=checkbox></td>
+  </tr>
+   <tr>
+       <td><lable>Post applying for</lable>
+       </td>
+       <td>
+       <lable>trainee</lable>
+       <input type=radio name="post applying for">
+       <lable>software engineer </lable>
+       <input type=radio name="post applying for">
+       <lable>team leader</lable>
+       <input type=radio name="post applying for">
+       <lable>project manager</lable>
+       <input type=radio name="post applying for"></td>
+  </tr> 
+   <tr>
+       <td><lable>Upload Resume</lable></td>
+       <td><input type=file></td>
+  </tr>
+   <tr>
+       <td><lable>Paste your Resume</lable></td>
+       <td><textarea rows="5"columns="5"></textarea>
+   </tr>
+    <tr>
+       <td><lable>Notify me the status via Email</lable></td>
+       <td><input type="checkbox"></td>
+   </tr>
+    <tr>
+       <td><lable>I agree to terms & conditions</lable></td>
+       <td><input type="checkbox"></td>
+   </tr>
+    <tr>
+       <td><button>submit</button></td>
+       <td><button>reset</button></td>
+       <td><input type="submit"></td>
+
+
+   </tr>
+
+  </tbody>
+  </table>
+  </html>
+
+
+
+
+
+
+
+  
